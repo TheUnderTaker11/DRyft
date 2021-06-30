@@ -1,10 +1,12 @@
 # DRyft
 
-This application makes use of [Docker](https://www.docker.com) to provide every developer with a uniform environment. You must first install Docker to make proper use of it. Otherwise you will need to modify `bootstrap.php` to support your specific environment.
+This is a website designed to allow users to request rides to/from medical facilities. It's designed specifically for the use of medical transportation, such as for people who can't drive themselves to a doctors appointment.
+
+This was a group project, consisting of 4 total members.
 
 # Getting Started
 
-Once Docker is installed, navigate to the top project directory in a terminal and use the following commands:
+Once [Docker](https://www.docker.com) is installed, navigate to the top project directory in a terminal and use the following commands:
 
 * `docker-compose build` — to download the requisite images and set up an image for the app
 * `docker-compose up -d` — to start the virtual machine and make the application available
